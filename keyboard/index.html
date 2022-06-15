@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Keyboard</title>
+    <link rel="stylesheet" href="assets/media.css" />
+    <script src="https://cdn.tailwindcss.com"></script>
+  </head>
+  <body class="h-screen bg-slate-700">
+    <header class="w-screen h-24 flex justify-center items-center">
+      <h1 class="text-5xl text-white">Teclado Virtual</h1>
+    </header>
+    <div class="js-keys-wrapper flex items-start justify-center flex-wrap p-10">
+      <div
+        data-key="81"
+        class="rounded-xl border p-5 shadow-md w-14 h-40 bg-white flex flex-col items-center justify-between"
+      >
+        <span
+          class="rounded-lg bg-slate-200 p-1 h-7 w-7 flex justify-center items-center"
+          >C</span
+        >
+        <span class="desktop-key">Q</span>
+        <audio data-key-sound="81" src="assets/sounds/key06.mp3"></audio>
+      </div>
+      <div
+        data-key="87"
+        class="rounded-xl border p-5 shadow-md w-14 h-40 bg-white flex flex-col items-center justify-between"
+      >
+        <span
+          class="rounded-lg bg-slate-200 p-1 h-7 w-7 flex justify-center items-center"
+          >C#</span
+        >
+        <span class="desktop-key">W</span>
+        <audio data-key-sound="87" src="assets/sounds/key07.mp3"></audio>
+      </div>
+      <div
+        data-key="69"
+        class="rounded-xl border p-5 shadow-md w-14 h-40 bg-white flex flex-col items-center justify-between"
+      >
+        <span
+          class="rounded-lg bg-slate-200 p-1 h-7 w-7 flex justify-center items-center"
+          >D</span
+        >
+        <span class="desktop-key">E</span>
+        <audio data-key-sound="69" src="assets/sounds/key08.mp3"></audio>
+      </div>
+      <div
+        data-key="82"
+        class="rounded-xl border p-5 shadow-md w-14 h-40 bg-white flex flex-col items-center justify-between"
+      >
+        <span
+          class="rounded-lg bg-slate-200 p-1 h-7 w-7 flex justify-center items-center"
+          >D#</span
+        >
+        <span class="desktop-key">R</span>
+        <audio data-key-sound="82" src="assets/sounds/key09.mp3"></audio>
+      </div>
+      <div
+        data-key="65"
+        class="rounded-xl border p-5 shadow-md w-14 h-40 bg-white flex flex-col items-center justify-between"
+      >
+        <span
+          class="rounded-lg bg-slate-200 p-1 h-7 w-7 flex justify-center items-center"
+          >E</span
+        >
+        <span class="desktop-key">A</span>
+        <audio data-key-sound="65" src="assets/sounds/key10.mp3"></audio>
+      </div>
+      <div
+        data-key="83"
+        class="rounded-xl border p-5 shadow-md w-14 h-40 bg-white flex flex-col items-center justify-between"
+      >
+        <span
+          class="rounded-lg bg-slate-200 p-1 h-7 w-7 flex justify-center items-center"
+          >F</span
+        >
+        <span class="desktop-key">S</span>
+        <audio data-key-sound="83" src="assets/sounds/key11.mp3"></audio>
+      </div>
+      <div
+        data-key="68"
+        class="rounded-xl border p-5 shadow-md w-14 h-40 bg-white flex flex-col items-center justify-between"
+      >
+        <span
+          class="rounded-lg bg-slate-200 p-1 h-7 w-7 flex justify-center items-center"
+          >F#</span
+        >
+        <span class="desktop-key">D</span>
+        <audio data-key-sound="68" src="assets/sounds/key12.mp3"></audio>
+      </div>
+      <div
+        data-key="70"
+        class="rounded-xl border p-5 shadow-md w-14 h-40 bg-white flex flex-col items-center justify-between"
+      >
+        <span
+          class="rounded-lg bg-slate-200 p-1 h-7 w-7 flex justify-center items-center"
+          >G</span
+        >
+        <span class="desktop-key">F</span>
+        <audio data-key-sound="70" src="assets/sounds/key13.mp3"></audio>
+      </div>
+      <div
+        data-key="90"
+        class="rounded-xl border p-5 shadow-md w-14 h-40 bg-white flex flex-col items-center justify-between"
+      >
+        <span
+          class="rounded-lg bg-slate-200 p-1 h-7 w-7 flex justify-center items-center"
+          >G#</span
+        >
+        <span class="desktop-key">Z</span>
+        <audio data-key-sound="90" src="assets/sounds/key14.mp3"></audio>
+      </div>
+      <div
+        data-key="88"
+        class="rounded-xl border p-5 shadow-md w-14 h-40 bg-white flex flex-col items-center justify-between"
+      >
+        <span
+          class="rounded-lg bg-slate-200 p-1 h-7 w-7 flex justify-center items-center"
+          >A</span
+        >
+        <span class="desktop-key">X</span>
+        <audio data-key-sound="88" src="assets/sounds/key15.mp3"></audio>
+      </div>
+      <div
+        data-key="67"
+        class="rounded-xl border p-5 shadow-md w-14 h-40 bg-white flex flex-col items-center justify-between"
+      >
+        <span
+          class="rounded-lg bg-slate-200 p-1 h-7 w-7 flex justify-center items-center"
+          >A#</span
+        >
+        <span class="desktop-key">C</span>
+        <audio data-key-sound="67" src="assets/sounds/key16.mp3"></audio>
+      </div>
+      <div
+        data-key="86"
+        class="rounded-xl border p-5 shadow-md w-14 h-40 bg-white flex flex-col items-center justify-between"
+      >
+        <span
+          class="rounded-lg bg-slate-200 p-1 h-7 w-7 flex justify-center items-center"
+          >B</span
+        >
+        <span class="desktop-key">V</span>
+        <audio data-key-sound="86" src="assets/sounds/key17.mp3"></audio>
+      </div>
+      <div
+        data-key="66"
+        class="rounded-xl border p-5 shadow-md w-14 h-40 bg-white flex flex-col items-center justify-between"
+      >
+        <span
+          class="rounded-lg bg-slate-200 p-1 h-7 w-7 flex justify-center items-center"
+          >C</span
+        >
+        <span class="desktop-key">B</span>
+        <audio data-key-sound="66" src="assets/sounds/key18.mp3"></audio>
+      </div>
+    </div>
+
+    <script src="assets/script.js"></script>
+  </body>
+</html>
